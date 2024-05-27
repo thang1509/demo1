@@ -1,0 +1,15 @@
+.ude-btnWhite{
+    @include styleButton(#fff,#686f7a,11px,12px,2px);
+@include styleText(#686f7a,15px,700);
+&:hover{
+    @include styleButtonHover (#fff,#29303b,#29303b);
+}
+}
+.ude-btnRed{
+@include styleButton(#ec5252,transparent,11px,12px,2px);
+@include styleText($color-white-0,15px,700);
+
+&:hover{
+    @include styleButtonHover (#992337,#fff,transparent);
+}
+}
